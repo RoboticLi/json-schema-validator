@@ -21,7 +21,7 @@ module.exports = `{
         {"$ref": "meta/format-annotation"},
         {"$ref": "meta/content"}
     ],
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "definitions": {
             "$comment": "While no longer an official keyword as it is replaced by $defs, this keyword is retained in the meta-schema to prevent incompatible extensions as it remains in common use.",

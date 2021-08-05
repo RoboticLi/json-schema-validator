@@ -7,7 +7,7 @@ module.exports = `{
     "$dynamicAnchor": "meta",
 
     "title": "Validation vocabulary meta-schema",
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "multipleOf": {
             "type": "number",

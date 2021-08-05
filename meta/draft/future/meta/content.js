@@ -8,7 +8,7 @@ module.exports = `{
 
     "title": "Content vocabulary meta-schema",
 
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "contentMediaType": { "type": "string" },
         "contentEncoding": { "type": "string" },

@@ -8,7 +8,7 @@ module.exports = `{
 
     "title": "Meta-data vocabulary meta-schema",
 
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "title": {
             "type": "string"

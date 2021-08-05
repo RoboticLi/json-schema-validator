@@ -7,7 +7,7 @@ module.exports = `{
     "$dynamicAnchor": "meta",
 
     "title": "Applicator vocabulary meta-schema",
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "prefixItems": { "$ref": "#/$defs/schemaArray" },
         "items": { "$dynamicRef": "#meta" },

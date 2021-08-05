@@ -7,7 +7,7 @@ module.exports = `{
     "$dynamicAnchor": "meta",
 
     "title": "Core vocabulary meta-schema",
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "$id": {
             "type": "string",

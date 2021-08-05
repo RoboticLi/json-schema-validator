@@ -7,7 +7,7 @@ module.exports = `{
     "$dynamicAnchor": "meta",
 
     "title": "Unevaluated applicator vocabulary meta-schema",
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "unevaluatedItems": { "$dynamicRef": "#meta" },
         "unevaluatedProperties": { "$dynamicRef": "#meta" }

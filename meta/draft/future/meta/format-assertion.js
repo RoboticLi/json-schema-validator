@@ -7,7 +7,7 @@ module.exports = `{
     "$dynamicAnchor": "meta",
 
     "title": "Format vocabulary meta-schema for assertion results",
-    "type": ["object", "boolean"],
+    "type": ["object", "boolean", "string"],
     "properties": {
         "format": { "type": "string" }
     }
