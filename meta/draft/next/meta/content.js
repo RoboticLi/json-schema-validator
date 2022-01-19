@@ -1,8 +1,8 @@
 module.exports = `{
-    "$id": "https://json-schema.org/draft/future/meta/content",
-    "$schema": "https://json-schema.org/draft/future/schema",
+    "$id": "https://json-schema.org/draft/next/meta/content",
+    "$schema": "https://json-schema.org/draft/next/schema",
     "$vocabulary": {
-        "https://json-schema.org/draft/future/vocab/content": true
+        "https://json-schema.org/draft/next/vocab/content": true
     },
     "$dynamicAnchor": "meta",
 

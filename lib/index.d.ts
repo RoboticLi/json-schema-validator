@@ -35,6 +35,7 @@ export * from "./draft-06";
 export * from "./draft-07";
 export * from "./draft-2019-09";
 export * from "./draft-2020-12";
+export * from "./draft-next";
 
 declare const jsonSchema: JsonSchema;
 export default jsonSchema;

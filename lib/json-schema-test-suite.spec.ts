@@ -53,7 +53,10 @@ const skip: Set<string> = new Set([
   "|draft2019-09|unknownKeyword.json|$id inside an unknown keyword is not a real identifier",
   "|draft2020-12|anchor.json|$anchor inside an enum is not a real identifier",
   "|draft2020-12|id.json|$id inside an enum is not a real identifier",
-  "|draft2020-12|unknownKeyword.json|$id inside an unknown keyword is not a real identifier"
+  "|draft2020-12|unknownKeyword.json|$id inside an unknown keyword is not a real identifier",
+  "|draft-next|anchor.json|$anchor inside an enum is not a real identifier",
+  "|draft-next|id.json|$id inside an enum is not a real identifier",
+  "|draft-next|unknownKeyword.json|$id inside an unknown keyword is not a real identifier"
 ]);
 
 const shouldSkip = (path: string[]): boolean => {
@@ -138,3 +141,4 @@ runTestSuite("draft6", "http://json-schema.org/draft-06/schema");
 runTestSuite("draft7", "http://json-schema.org/draft-07/schema");
 runTestSuite("draft2019-09", "https://json-schema.org/draft/2019-09/schema");
 runTestSuite("draft2020-12", "https://json-schema.org/draft/2020-12/schema");
+runTestSuite("draft-next", "https://json-schema.org/draft/next/schema");

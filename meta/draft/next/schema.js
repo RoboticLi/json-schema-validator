@@ -1,14 +1,14 @@
 module.exports = `{
-    "$schema": "https://json-schema.org/draft/future/schema",
-    "$id": "https://json-schema.org/draft/future/schema",
+    "$schema": "https://json-schema.org/draft/next/schema",
+    "$id": "https://json-schema.org/draft/next/schema",
     "$vocabulary": {
-        "https://json-schema.org/draft/future/vocab/core": true,
-        "https://json-schema.org/draft/future/vocab/applicator": true,
-        "https://json-schema.org/draft/future/vocab/unevaluated": true,
-        "https://json-schema.org/draft/future/vocab/validation": true,
-        "https://json-schema.org/draft/future/vocab/meta-data": true,
-        "https://json-schema.org/draft/future/vocab/format-annotation": true,
-        "https://json-schema.org/draft/future/vocab/content": true
+        "https://json-schema.org/draft/next/vocab/core": true,
+        "https://json-schema.org/draft/next/vocab/applicator": true,
+        "https://json-schema.org/draft/next/vocab/unevaluated": true,
+        "https://json-schema.org/draft/next/vocab/validation": true,
+        "https://json-schema.org/draft/next/vocab/meta-data": true,
+        "https://json-schema.org/draft/next/vocab/format-annotation": true,
+        "https://json-schema.org/draft/next/vocab/content": true
     },
     "$dynamicAnchor": "meta",
 

@@ -4,8 +4,8 @@
   "description": "A JSON Schema Validator",
   "main": "lib/index.js",
   "exports": {
-    "require": "./lib/draft-future.js",
-    "import": "./lib/draft-future.js"
+    "require": "./lib/draft-next.js",
+    "import": "./lib/draft-next.js"
   },
   "scripts": {
     "clean": "xargs -a .gitignore rm -rf",
